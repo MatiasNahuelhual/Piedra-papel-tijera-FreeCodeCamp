@@ -13,5 +13,3 @@ Una función de jugador recibirá una cadena vacía como argumento para la prime
 El archivo RPS.py muestra una función de ejemplo que necesitarás actualizar. La función de ejemplo se define con dos argumentos (player(prev_play, opponent_history = [])). La función nunca es llamada con un segundo argumento por lo que éste es completamente opcional. La razón por la que la función de ejemplo contiene un segundo argumento (opponent_history = []) es porque es la única forma de guardar el estado entre llamadas consecutivas de la función player. Sólo necesitas el argumento opponent_history si quieres guardar el estado de opponent_history.
 
 Sugerencia: Para derrotar a los cuatro oponentes, su programa puede necesitar tener múltiples estrategias que cambien dependiendo de las jugadas del oponente.
-
-Traducción realizada con la versión gratuita del traductor DeepL.com
