@@ -1,15 +1,15 @@
-# Rock Paper Scissors
+# Piedra Papel o Tijeras
 
 This is the boilerplate for the Rock Paper Scissors project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/machine-learning-with-python/machine-learning-with-python-projects/rock-paper-scissors
 
-# Description
+# Descripción
 
-For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
+Para este reto, crearás un programa para jugar a Piedra, Papel o Tijera. Un programa que elige al azar suele ganar el 50% de las veces. Para superar este reto tu programa debe jugar partidos contra cuatro bots diferentes, ganando al menos el 60% de las partidas en cada partido.
 
-In the file RPS.py you are provided with a function called player. The function takes an argument that is a string describing the last move of the opponent ("R", "P", or "S"). The function should return a string representing the next move for it to play ("R", "P", or "S").
+En el archivo RPS.py se proporciona una función llamada player. La función toma un argumento que es una cadena que describe el último movimiento del oponente ("R", "P", o "S"). La función debe devolver una cadena que representa el siguiente movimiento que debe realizar ("R", "P", o "S").
 
-A player function will receive an empty string as an argument for the first game in a match since there is no previous play.
+Una función de jugador recibirá una cadena vacía como argumento para la primera partida de un partido, ya que no hay jugadas anteriores.
 
-The file RPS.py shows an example function that you will need to update. The example function is defined with two arguments (player(prev_play, opponent_history = [])). The function is never called with a second argument so that one is completely optional. The reason why the example function contains a second argument (opponent_history = []) is because that is the only way to save state between consecutive calls of the player function. You only need the opponent_history argument if you want to keep track of the opponent_history.
+El archivo RPS.py muestra una función de ejemplo que necesitarás actualizar. La función de ejemplo se define con dos argumentos (player(prev_play, opponent_history = [])). La función nunca es llamada con un segundo argumento por lo que éste es completamente opcional. La razón por la que la función de ejemplo contiene un segundo argumento (opponent_history = []) es porque es la única forma de guardar el estado entre llamadas consecutivas de la función player. Sólo necesitas el argumento opponent_history si quieres guardar el estado de opponent_history.
 
-Hint: To defeat all four opponents, your program may need to have multiple strategies that change depending on the plays of the opponent.
+Sugerencia: Para derrotar a los cuatro oponentes, su programa puede necesitar tener múltiples estrategias que cambien dependiendo de las jugadas del oponente.
