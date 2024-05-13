@@ -18,3 +18,5 @@ Este archivo tiene como fin:
 
 
 # 1. Comprender el problema
+
+escribir aca 
